@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finders Keepers - Privacy Policy & Terms of Service</title>
+  <style>
+    :root {
+      --primary: #4F46E5;
+      --primary-hover: #4338CA;
+      --text-main: #0F172A;
+      --text-body: #1E293B;
+      --text-muted: #475569;
+      --bg-page: #F8FAFC;
+      --bg-card: #FFFFFF;
+      --border: #E2E8F0;
+      --badge-bg: #EEF2FF;
+      --badge-text: #4338CA;
+      --nav-bg: #F1F5F9;
+      --contact-bg: #F8FAFC;
+      --code-bg: #F1F5F9;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary: #818CF8;
+        --primary-hover: #A5B4FC;
+        --text-main: #F8FAFC;
+        --text-body: #E2E8F0;
+        --text-muted: #94A3B8;
+        --bg-page: #0F172A;
+        --bg-card: #1E293B;
+        --border: #334155;
+        --badge-bg: #312E81;
+        --badge-text: #E0E7FF;
+        --nav-bg: #0F172A;
+        --contact-bg: #0F172A;
+        --code-bg: #0F172A;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text-body);
+      background-color: var(--bg-page);
+      padding: 24px 16px;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--bg-card);
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4338CA 0%, #6D28D9 100%);
+      color: #FFFFFF;
+      padding: 36px 32px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: #FFFFFF !important;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      color: #FFFFFF !important;
+      opacity: 0.95;
+      margin-bottom: 0 !important;
+    }
+
+    .nav-tabs {
+      display: flex;
+      background: var(--nav-bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-tabs button {
+      flex: 1;
+      padding: 16px 20px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: all 0.2s ease;
+      text-align: center;
+    }
+
+    .nav-tabs button:hover {
+      color: var(--text-main);
+    }
+
+    .nav-tabs button.active {
+      background: var(--bg-card);
+      color: var(--primary);
+      border-bottom: 3px solid var(--primary);
+    }
+
+    .content-area {
+      padding: 36px 32px;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    p, ul, ol {
+      margin-bottom: 16px;
+      color: var(--text-body);
+      font-size: 1rem;
+    }
+
+    ul, ol {
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: var(--text-body);
+    }
+
+    strong {
+      color: var(--text-main);
+      font-weight: 700;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9em;
+      padding: 3px 8px;
+      background-color: var(--code-bg);
+      color: var(--primary);
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 0.85rem;
+      font-weight: 700;
+      border-radius: 9999px;
+      margin-bottom: 20px;
+    }
+
+    .contact-box {
+      background: var(--contact-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 32px;
+    }
+
+    .contact-box h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+
+    .contact-box p {
+      margin-bottom: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      background: var(--bg-card);
+    }
+
+    @media (max-width: 640px) {
+      .content-area {
+        padding: 24px 18px;
+      }
+      header {
+        padding: 28px 20px;
+      }
+      header h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Finders Keepers</h1>
+      <p>Word Search Puzzle Game &bull; Legal Documentation</p>
+    </header>
+
+    <div class="nav-tabs">
+      <button id="tabBtnPrivacy" class="active" onclick="showTab('privacy')">Privacy Policy</button>
+      <button id="tabBtnTerms" onclick="showTab('terms')">Terms of Service</button>
+    </div>
+
+    <div class="content-area">
+
+      <!-- PRIVACY POLICY SECTION -->
+      <div id="privacyTab" class="tab-content active">
+        <span class="badge">Last Updated: October 28, 2026</span>
+        <p>This Privacy Policy explains how <strong>Cybor</strong> ("we", "our", or "us") collects, uses, discloses, and protects information when you play <strong>Finders Keepers</strong> (Application ID: <code>com.cybor.finders_keepers</code>).</p>
+        
+        <h2>1. Information Stored Locally On Your Device</h2>
+        <p>Finders Keepers is built with an offline-first architecture. <strong>We do not require user accounts, email addresses, phone numbers, or passwords.</strong></p>
+        <p>Your gameplay progress is stored strictly on your local device storage using a local database (SQLite/Drift). This includes:</p>
+        <ul>
+          <li>Level progression and highest unlocked level</li>
+          <li>In-game coin balance and hint quantities</li>
+          <li>Audio and gameplay preferences (sound effects, background music, haptic vibrations, color theme)</li>
+          <li>Daily challenge completion status</li>
+        </ul>
+        <p><strong>This data remains on your device and is never uploaded to any remote server operated by Cybor.</strong></p>
+
+        <h2>2. Third-Party Services & Analytics</h2>
+        <p>To support free gameplay and provide optional rewards, Finders Keepers integrates trusted third-party advertising SDKs:</p>
+        
+        <h3>Google Mobile Ads (AdMob)</h3>
+        <p>We display interstitial and optional rewarded video advertisements via Google AdMob. AdMob may collect:</p>
+        <ul>
+          <li><strong>Device Identifiers:</strong> Google Advertising ID (GAID) or IDFA.</li>
+          <li><strong>Technical Data:</strong> Device model, operating system, network carrier, and screen dimensions.</li>
+          <li><strong>Network Information:</strong> Coarse IP-based location (country or city level) to display relevant advertisements.</li>
+          <li><strong>Ad Metrics:</strong> Ad impressions, view completion, and engagement data.</li>
+        </ul>
+        <p>For more information, please review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google Partner Data Usage</a>.</p>
+
+        <h3>In-App Purchases</h3>
+        <p>If purchases are made, payments are handled directly by Google Play or Apple App Store. We do not receive, store, or process your credit card or payment information.</p>
+
+        <h2>3. Device Permissions</h2>
+        <ul>
+          <li><strong>INTERNET:</strong> Required to fetch advertisements and verify in-app purchases.</li>
+          <li><strong>VIBRATE:</strong> Used solely to provide tactile haptic feedback during word selection and puzzle completion (can be disabled in Settings).</li>
+        </ul>
+
+        <h2>4. Children's Privacy (COPPA)</h2>
+        <p>Finders Keepers is a general audience word puzzle game. We do not knowingly collect personal information from children under the age of 13 (or under 16 in the European Union). If you believe personal information from a child has inadvertently been shared with an ad provider, please contact us immediately.</p>
+
+        <h2>5. Your Privacy Rights (GDPR & CCPA)</h2>
+        <p>If you reside in the EEA, UK, or California, you are entitled to exercise statutory privacy rights:</p>
+        <ul>
+          <li><strong>Data Erasure:</strong> Clear your device app storage or uninstall the game at any time to delete all local progress.</li>
+          <li><strong>Opt-Out of Personalized Ads:</strong> Adjust your personalized advertising settings directly in your Android settings (<em>Settings &gt; Google &gt; Ads</em>) or iOS settings (<em>Settings &gt; Privacy &amp; Security &gt; Tracking</em>).</li>
+        </ul>
+
+        <div class="contact-box">
+          <h3>Contact Us</h3>
+          <p>If you have any questions or requests regarding this Privacy Policy, please email us at: <a href="mailto:support@cybor.games">support@cybor.games</a>.</p>
+        </div>
+      </div>
+
+      <!-- TERMS OF SERVICE SECTION -->
+      <div id="termsTab" class="tab-content">
+        <span class="badge">Last Updated: October 28, 2026</span>
+        <p>These Terms of Service govern your use of the <strong>Finders Keepers</strong> mobile application developed by <strong>Cybor</strong>.</p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or playing Finders Keepers, you agree to be bound by these Terms. If you do not agree, do not use the Game.</p>
+
+        <h2>2. Limited License</h2>
+        <p>Cybor grants you a personal, non-exclusive, non-transferable, revocable license to play Finders Keepers on your personal mobile device for non-commercial entertainment purposes.</p>
+
+        <h2>3. Intellectual Property Rights</h2>
+        <p>All source code, level generation algorithms, graphics, UI themes, music, sound effects, and trademarks in Finders Keepers are the exclusive intellectual property of Cybor. You agree not to decompile, reverse engineer, extract word dictionaries, or exploit the Game without prior written authorization.</p>
+
+        <h2>4. Virtual Currency & Items</h2>
+        <ul>
+          <li>Coins, hints, and power-ups are virtual items with <strong>no real-world monetary value</strong>.</li>
+          <li>Virtual items cannot be redeemed, sold, or transferred for real currency.</li>
+          <li>Because game state is saved locally, uninstalling the app or resetting device storage may permanently erase your virtual items.</li>
+        </ul>
+
+        <h2>5. In-App Purchases & Refunds</h2>
+        <p>All in-app transactions are processed via Google Play or the Apple App Store. Any requests for refunds are subject to the policies of the respective app store platform.</p>
+
+        <h2>6. Disclaimer of Warranties & Limitation of Liability</h2>
+        <p>The Game is provided "AS IS" without warranties of any kind. Cybor shall not be liable for any indirect, incidental, or consequential damages resulting from your use of or inability to play the Game.</p>
+
+        <div class="contact-box">
+          <h3>Contact Us</h3>
+          <p>For inquiries regarding these Terms of Service, please reach out to: <a href="mailto:support@cybor.games">support@cybor.games</a>.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      &copy; 2026 Cybor. All rights reserved. &bull; Finders Keepers
+    </footer>
+  </div>
+
+  <script>
+    function showTab(tabName) {
+      document.getElementById('privacyTab').classList.toggle('active', tabName === 'privacy');
+      document.getElementById('termsTab').classList.toggle('active', tabName === 'terms');
+      document.getElementById('tabBtnPrivacy').classList.toggle('active', tabName === 'privacy');
+      document.getElementById('tabBtnTerms').classList.toggle('active', tabName === 'terms');
+    }
+  </script>
+</body>
+</html>
